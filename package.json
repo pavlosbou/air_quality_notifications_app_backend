@@ -1,0 +1,25 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "@gogovega/node-red-contrib-firebase-realtime-database": "~0.7.0",
+        "@mnn-o/node-red-rabbitmq": "^1.0.2",
+        "amqplib": "^0.10.4",
+        "bcryptjs": "^2.4.3",
+        "clusters": "^0.0.4",
+        "firebase-admin": "^12.6.0",
+        "jsonwebtoken": "^9.0.2",
+        "ml-kmeans": "^6.0.0",
+        "node-red-contrib-bcrypt": "~0.1.6",
+        "node-red-contrib-mp-function": "~1.1.1",
+        "node-red-contrib-npm": "~1.0.2",
+        "node-red-contrib-rhea": "~0.0.2",
+        "node-red-contrib-web-worldmap": "~4.8.0",
+        "node-red-dashboard": "~3.6.5",
+        "node-red-node-sqlite": "~1.1.0",
+        "rhea": "^3.0.3",
+        "ws": "^8.18.0"
+    }
+}
