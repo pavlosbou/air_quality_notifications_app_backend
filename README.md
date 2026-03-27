@@ -21,6 +21,13 @@
    When the dataset is ready and after then once a day, I use the K means algorithm to extract three clusters with data so2, pm2_5 and pm10 in relation with the wind<br/>
    </p>
 
+![cluster](cluster-visualization-color.png) ![cluster-1](cluster-visualization-color-1.png)
+<p> <em>cluster visualization(4th dimension as color)</em></p>
+
+![cluster-2](cluster-visualization-different-color-each-cluster.png)
+<p><em>cluster visualization( different color each cluster)</em></p>
+
+
 <p>To create the notifications, I call the api every 3 hours and I compare the response's wind speed with the centroid's value and then I categorize the notification in three categories:0
   <ul>
     <li>good quality for big values</li> 
